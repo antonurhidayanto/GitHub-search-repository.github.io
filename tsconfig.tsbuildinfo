@@ -1,0 +1,1 @@
+{"root":["./src/setuptest.ts","./src/vite-env.d.ts","./src/types/user.ts","./src/utils/api.ts","./src/app.tsx","./src/main.tsx","./src/components/usercard.tsx","./src/components/usersearch.tsx","./src/tests/usercard.test.tsx","./src/tests/usersearch.test.tsx"],"version":"5.8.3"}

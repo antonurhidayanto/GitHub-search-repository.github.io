@@ -1,0 +1,19 @@
+// 
+
+{
+  "compilerOptions": {
+    "target": "ESNext",  // Use the latest JavaScript
+    "module": "CommonJS",  // Node.js uses CommonJS modules
+    "moduleResolution": "node",  // Resolves modules like Node.js
+    "esModuleInterop": true,  // Allow interoperability with CommonJS modules
+    "strict": true,  // Enable strict type checking
+    "skipLibCheck": true  // Skip checking the type declarations
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
