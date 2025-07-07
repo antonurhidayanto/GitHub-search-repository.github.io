@@ -1,7 +1,7 @@
 {
   "name": "github-user-repository-search",
   "private": true,
-  "homepage": "https://GitHub-search-repository.github.io",
+  "homepage": "https://github-search-repository.github.io",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
