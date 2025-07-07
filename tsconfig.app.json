@@ -34,7 +34,7 @@
     "strict": true,  // Enable strict type checking
     "allowJs": true,  // Allow JavaScript files to be included in the project
     "skipLibCheck": true,  // Skip type checking for declaration files
-    "moduleResolution": "bundler",
+    "moduleResolution": "node",
     "allowImportingTsExtensions": true,
     "verbatimModuleSyntax": true,
     "moduleDetection": "force",
