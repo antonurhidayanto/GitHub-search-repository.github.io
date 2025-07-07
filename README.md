@@ -21,7 +21,7 @@ This is a **React** app built using **TypeScript** that allows users to search f
 ### 1. Clone this repository:
 
 ```bash
-git clone https://github.com/antonurhidayanto/GitHub-User-Repository.git
+git clone https://github.com/antonurhidayanto/antonurhidayanto.github.io.git
 ```
 
 ### 2. Navigate into the project directory:
@@ -74,7 +74,7 @@ This application is designed to be fully **responsive**. On smaller devices, the
 
 Check out the live demo of the app:
 
-[Live Demo](https://antoNurhidayanto/GitHub-User-Repository.github.io)
+[Live Demo](https://antonurhidayanto/antonurhidayanto.github.io)
 
 ## 🤝 Contributing
 

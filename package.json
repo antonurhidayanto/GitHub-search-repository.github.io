@@ -1,6 +1,7 @@
 {
   "name": "github-user-repository-search",
   "private": true,
+  "homepage": "https://antonurhidayanto/antonurhidayanto.github.io",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -8,7 +9,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "preview": "vite preview"
   },
   "jest": {
@@ -21,7 +23,6 @@
       "./src/setupTest.ts"
     ]
   },
-  "homepage": "https://antoNurhidayanto/GitHub-User-Repository.github.io",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
