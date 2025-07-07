@@ -74,7 +74,7 @@ This application is designed to be fully **responsive**. On smaller devices, the
 
 Check out the live demo of the app:
 
-[Live Demo](https://antonurhidayanto/antonurhidayanto.github.io)
+[Live Demo](https://antonurhidayanto.github.io)
 
 ## 🤝 Contributing
 
