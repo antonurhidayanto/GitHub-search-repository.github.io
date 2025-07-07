@@ -74,7 +74,7 @@ This application is designed to be fully **responsive**. On smaller devices, the
 
 Check out the live demo of the app:
 
-[Live Demo](https://github-search-repository.github.io)
+[Live Demo](https://antonurhidayanto.github.io/GitHub-search-repository.github.io)
 
 ## 🤝 Contributing
 
