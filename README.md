@@ -89,8 +89,8 @@ Feel free to fork the repository, make your changes, and open a pull request. Co
 
 ## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the [Anto Nurhidayanto](https://github.com/antonurhidayanto) License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-Made with 💙 by [Your Name](https://github.com/your-username)
+Made with 💙 by [Anto Nurhidayanto](https://github.com/antonurhidayanto)
