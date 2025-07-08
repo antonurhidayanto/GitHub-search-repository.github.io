@@ -1,24 +1,17 @@
-// {
-//   "files": [],
-//   "references": [
-//     { "path": "./tsconfig.app.json" },
-//     { "path": "./tsconfig.node.json" }
-//   ]
-// }
 
 {
   "compilerOptions": {
-    "target": "ES5",                       // Ensures compatibility with Jest
-    "module": "ESNext",                    // Supports ES modules (import/export)
-    "moduleResolution": "node",            // Allows resolving modules like Node.js
-    "esModuleInterop": true,               // Ensures compatibility with CommonJS modules
-    "jsx": "react-jsx",                    // React JSX transformation
-    "strict": true,                        // Enable strict type checking
-    "skipLibCheck": true,                  // Skips type checking for declaration files
-    "forceConsistentCasingInFileNames": true,  // Ensures consistent casing in imports
-    "allowJs": true,                       // Allows JavaScript files to be compiled
-    "isolatedModules": true,               // Ensures that files can be processed individually
-    "resolveJsonModule": true              // Allows importing `.json` files
+    "target": "ES5",                       
+    "module": "ESNext",                   
+    "moduleResolution": "node",            
+    "esModuleInterop": true,              
+    "jsx": "react-jsx",        
+    "strict": true,               
+    "skipLibCheck": true,                 
+    "forceConsistentCasingInFileNames": true,  
+    "allowJs": true,   
+    "isolatedModules": true,              
+    "resolveJsonModule": true        
   },
   "include": [
     "src/**/*.ts",
