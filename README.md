@@ -15,12 +15,12 @@ This is a **React** app built using **TypeScript** that allows users to search f
 - **Axios** (for API requests)
 - **Material-UI** (for UI components and styling)
 - **Vite** (for faster development build)
-- **Node.js v20.15.0** (for server-side JavaScript execution)
+- **Node.js v20.15.0 or above** (for server-side JavaScript execution)
 
 ## ⚙️ Installation
 
 ### Prerequisites:
-Make sure you have **Node.js v20.15.0** installed. You can download it from the official website:  
+Make sure you have **Node.js v20.15.0 or above** installed. You can download it from the official website:  
 [Download Node.js v20.15.0](https://nodejs.org/en/download/)
 
 You can check your installed Node.js version by running:
