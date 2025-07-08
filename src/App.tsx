@@ -18,14 +18,8 @@ const App: React.FC = () => {
     });
   };
 
-  // const handleSelectChange = (event: SelectChangeEvent<string>) => {
-  //   const selectedUsername = event.target.value as string;
-  //   const user = users.find((user) => user.login === selectedUsername);
-  //   setSelectedUser(user || null); // Set selected user
-  // };
 
   const handleAccordionChange = (user: User) => {
-    // Toggle accordion: If the same user is clicked, collapse, otherwise expand
     if (selectedUser?.login === user.login) {
       setSelectedUser(null);
     } else {
@@ -42,16 +36,16 @@ const App: React.FC = () => {
          {users.map((user) => (
             <Accordion
               key={user.id}
-              expanded={selectedUser?.login === user.login} // Only expand if this user is selected
-              onChange={() => handleAccordionChange(user)} // Toggle accordion on click
+              expanded={selectedUser?.login === user.login} 
+              onChange={() => handleAccordionChange(user)}
               sx={{
                   backgroundColor:'#f4f4f4',
                   borderRadius:'8px',
                   boxShadow:"0 4px 8px rgba(0, 0, 0, 0.1)",
                   transform:"transition: transform 0.3s ease;",
                   marginBottom:'20px',
-                  fontWeight: 'bold', // Make text bold
-                  '&:hover': { // Hover effect for the accordion summary
+                  fontWeight: 'bold', 
+                  '&:hover': {
                     transform: "translateY(-5px)"
                   },
                 }}

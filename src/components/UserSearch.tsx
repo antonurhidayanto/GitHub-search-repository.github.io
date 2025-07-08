@@ -18,6 +18,7 @@ const handleSubmit = () => {
   return (
     <div style={{ margin: '20px 0', display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
         <TextField
+          fullWidth
           label="Enter GitHub Username"
           variant='outlined'
           value={username}
